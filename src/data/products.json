@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Advanced AI-powered writing assistant with content generation and optimization features.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF", "Grammar check", "Plagiarism detection"],
+    "icon": "✍️"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "Premium collection of professional design templates for all your creative needs.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "bestSeller",
+    "features": ["500+ templates", "All formats", "Lifetime updates", "Commercial license", "Priority support"],
+    "icon": "🎨"
+  },
+  {
+    "id": 3,
+    "name": "Productivity Suite",
+    "description": "Complete productivity toolkit with task management, automation, and collaboration features.",
+    "price": 39,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Task automation", "Team collaboration", "Time tracking", "Analytics dashboard", "Mobile app"],
+    "icon": "⚡"
+  },
+  {
+    "id": 4,
+    "name": "SEO Optimizer Pro",
+    "description": "Professional SEO tools to boost your website rankings and organic traffic.",
+    "price": 59,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Keyword research", "Site audit", "Competitor analysis", "Rank tracking", "Backlink monitoring"],
+    "icon": "🔍"
+  },
+  {
+    "id": 5,
+    "name": "Social Media Manager",
+    "description": "All-in-one social media management platform for scheduling and analytics.",
+    "price": 35,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Multi-platform posting", "Content calendar", "Analytics", "Team collaboration", "Auto-scheduling"],
+    "icon": "📱"
+  },
+  {
+    "id": 6,
+    "name": "Video Editor Plus",
+    "description": "Professional video editing tools with effects, transitions, and export options.",
+    "price": 79,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "bestSeller",
+    "features": ["4K editing", "1000+ effects", "Stock library", "Auto-captioning", "Cloud storage"],
+    "icon": "🎬"
+  },
+  {
+    "id": 7,
+    "name": "Email Marketing Kit",
+    "description": "Complete email marketing solution with templates, automation, and analytics.",
+    "price": 45,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Drag-drop editor", "Automation workflows", "A/B testing", "Advanced analytics", "List management"],
+    "icon": "📧"
+  },
+  {
+    "id": 8,
+    "name": "Project Manager Pro",
+    "description": "Advanced project management tools for teams of all sizes.",
+    "price": 69,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Gantt charts", "Resource planning", "Budget tracking", "Team collaboration", "Reporting"],
+    "icon": "📊"
+  }
+]
