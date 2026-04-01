@@ -83,11 +83,13 @@ export default function App() {
 
       {/* Cart panel – shown only when activeTab === "cart" */}
       {activeTab === "cart" && (
-        <CartSection
-          cartItems={cartItems}
-          onRemove={handleRemove}
-          onCheckout={handleCheckout}
-        />
+        <section id="cart-section">
+          <CartSection
+            cartItems={cartItems}
+            onRemove={handleRemove}
+            onCheckout={handleCheckout}
+          />
+        </section>
       )}
 
       {/* Steps section */}

@@ -13,13 +13,36 @@ export default function Navbar({ cartCount, onCartClick }) {
     setIsMenuOpen(false);
   };
 
+  const handleCartClick = () => {
+    // First switch to cart tab
+    onCartClick();
+    // Then smoothly scroll to cart section
+    setTimeout(() => {
+      const element = document.getElementById('cart-section');
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }, 100);
+    setIsMenuOpen(false);
+  };
+
+  const handleLogoClick = () => {
+    // Reload the page
+    window.location.reload();
+  };
+
   return (
     <nav className="bg-white shadow-sm sticky top-0 z-50">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <h1 className="text-2xl font-bold text-purple-600">DigiTools</h1>
+            <button 
+              onClick={handleLogoClick}
+              className="text-2xl font-bold text-purple-600 hover:text-purple-700 transition"
+            >
+              DigiTools
+            </button>
           </div>
 
           {/* Desktop Navigation */}
@@ -63,7 +86,7 @@ export default function Navbar({ cartCount, onCartClick }) {
           <div className="flex items-center space-x-4">
             {/* Cart button */}
             <button 
-              onClick={onCartClick}
+              onClick={handleCartClick}
               className="relative p-2 text-gray-700 hover:text-purple-600 transition"
             >
               <ShoppingCart className="w-6 h-6" />
