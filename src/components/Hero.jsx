@@ -61,7 +61,7 @@ export default function Hero() {
           {/* Right content - Your Image */}
           <div className="relative w-full max-w-lg">
             <img 
-              src="B13-A6-DigiTools-Platform-main/assets/banner.png" 
+              src="/banner.png" 
               alt="Hero visual showing DigiTools platform features" 
               className="w-full h-auto rounded-2xl shadow-2xl transform hover:scale-105 transition duration-300" 
             />
