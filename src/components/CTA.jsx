@@ -9,11 +9,7 @@ export default function CTA() {
     }
   };
 
-  const handleViewPricing = () => {
-    const element = document.getElementById('pricing');
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
+  
   };
 
   const handleGetStarted = () => {
