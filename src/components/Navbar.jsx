@@ -27,7 +27,8 @@ export default function Navbar({ cartCount, onCartClick }) {
   };
 
   const handleLogoClick = () => {
-    // Reload the page
+    // Scroll to top first, then reload
+    window.scrollTo(0, 0);
     window.location.reload();
   };
 
