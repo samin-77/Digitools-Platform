@@ -70,7 +70,9 @@ export default function Hero() {
             <div className="absolute -top-4 -right-4 bg-yellow-400 text-yellow-900 px-3 py-1 rounded-full text-sm font-semibold shadow-lg">
               ✨ New Features
             </div>
-            
+            <div className="absolute -bottom-4 -left-4 bg-green-400 text-green-900 px-3 py-1 rounded-full text-sm font-semibold shadow-lg">
+              🚀 Fast Performance
+            </div>
           </div>
         </div>
       </div>
