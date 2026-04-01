@@ -27,9 +27,9 @@ export default function Navbar({ cartCount, onCartClick }) {
   };
 
   const handleLogoClick = () => {
-    // Scroll to top first, then reload
-    window.scrollTo(0, 0);
-    window.location.reload();
+    // Force reload and scroll to top by adding timestamp
+    const timestamp = Date.now();
+    window.location.href = window.location.pathname + '?t=' + timestamp;
   };
 
   return (
